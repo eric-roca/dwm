@@ -30,7 +30,6 @@ static char inner_separator          = ' ';
 static unsigned truncate_icons_after = 2; /* will default to 1, that is the min */
 static char truncate_symbol[]         = "...";
 
->>>>>>> 372307d (Adds underline tags)
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
