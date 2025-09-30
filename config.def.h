@@ -22,14 +22,6 @@ static const unsigned int ulinestroke	= 2;	/* thickness / height of the underlin
 static const unsigned int ulinevoffset	= 0;	/* how far above the bottom of the bar the line should appear */
 static const int ulineall 		= 0;	/* 1 to show underline on all tags, 0 for just the active ones */
 
-/* appicons */
-/* NOTE: set to 0 to set to default (whitespace) */
-static char outer_separator_beg      = '[';
-static char outer_separator_end      = ']';
-static char inner_separator          = ' ';
-static unsigned truncate_icons_after = 2; /* will default to 1, that is the min */
-static char truncate_symbol[]         = "...";
-
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
